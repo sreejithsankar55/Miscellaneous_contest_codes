@@ -1,7 +1,7 @@
 Node* rightRotate(Node* head, int k) 
 {
     if (!head) 
-		return head; 
+	return head; 
     struct Node* temp1=head;
     int c=0;
 
@@ -9,10 +9,7 @@ Node* rightRotate(Node* head, int k)
         temp1=temp1->next;
         c++;
     }
-    if(k%c == 0)
-        return head;
     k=(k%c);
-
     struct Node* temp2 = head;
     temp1=head;
     while(k--) {
