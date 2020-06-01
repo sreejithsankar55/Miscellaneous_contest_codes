@@ -1,3 +1,7 @@
+//try with stack like in https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3328/discuss/88708/Straightforward-Java-Solution-Using-Stack
+
+//https://www.hackerrank.com/contests/launch-assessment-mock-3-batch-1/challenges/k-digit-number
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
